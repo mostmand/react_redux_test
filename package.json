@@ -9,8 +9,8 @@
     "@types/react-dom": "16.8.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8",
-    "typescript": "3.4.4"
+    "react-redux": "^7.0.2",
+    "react-scripts": "2.1.8"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,5 +26,11 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@types/react-redux": "^7.0.8",
+    "redux": "^4.0.1",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.4"
+  }
 }
